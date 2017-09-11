@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "26.0.0"
+    defaultConfig {
+        applicationId "com.amap.locmonitor"
+        minSdkVersion 8
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs =['libs']
+            assets.srcDirs = ['assets']
+        }
+    }
+}
+
+android {
+    lintOptions {
+        abortOnError false
+    }
+}
+
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

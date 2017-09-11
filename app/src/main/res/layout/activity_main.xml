@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff"
+              android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/phoneet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入电话号码"
+        android:text="18618350897"
+        />
+
+    <EditText
+        android:id="@+id/plateet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入车牌号"
+        android:text="京N298L2"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onStartTrack"
+        android:text="StartTrack"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onStopTrack"
+        android:text="StopTrack"
+        />
+
+</LinearLayout>

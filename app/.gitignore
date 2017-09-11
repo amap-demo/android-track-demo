@@ -1,0 +1,6 @@
+/build
+../.idea
+../.gradle
+../gradle
+../local.properties
+proguard-rules.pro

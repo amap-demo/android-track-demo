@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">华泰DEMO</string>
+
+    <!-- AccountManager Declaration -->
+    <string name="account_auth_provider">com.amap.amlib.AMSyncAdapter</string>
+    <string name="accountType">com.amap.amlib.AMSyncAdapter</string>
+    <string name="auth_token_type">com.amap.amlib.AMSyncAdapter</string>
+    <!-- end of AccountManager Declaration -->
+
+</resources>
