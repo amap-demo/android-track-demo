@@ -104,6 +104,9 @@ HT 轨迹跟踪sdk的demo
 必须包含 libs/AMapTrack_v0.1_20170911.jar。
 如果需要保活，需要引入libs/XXX/libdaemon_api20.so 和libs/XXX/libdaemon_api21.so ，同时引入assets/XXX/daemon
 
+## 使用方法如下 ##
+开启轨迹跟踪时，除了需要车牌和和电话号码等参数外，如果需要sdk对服务进行保活，需要传入相应参数。具体使用方法如下：
+
 ### 非保活的启动方法 ###
 启动轨迹跟踪的代码如下：
 ```java
