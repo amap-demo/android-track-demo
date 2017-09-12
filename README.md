@@ -1,4 +1,4 @@
-# AMapTrackDemo
+# android-track-demo
 HT 轨迹跟踪sdk的demo
 
 ## 前述 ##
